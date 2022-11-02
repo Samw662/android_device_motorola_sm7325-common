@@ -19,3 +19,10 @@ persist.vendor.rcs.singlereg.feature=1
 
 # System server
 arm64.memtag.process.system_server=off
+
+# Power-saving props
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+power.saving.mode=1
+pm.sleep_mode=1
