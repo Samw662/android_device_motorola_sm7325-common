@@ -307,6 +307,7 @@ ro.soc.manufacturer=QTI
 debug.stagefright.c2inputsurface=-1
 
 # Surfaceflinger
+debug.sf.auto_latch_unsignaled=0
 ro.sf.lcd_density=400
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=true
