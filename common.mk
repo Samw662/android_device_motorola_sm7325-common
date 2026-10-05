@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# DolbyAtmos
+$(call inherit-product, hardware/motorola/dolby/dolby.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
